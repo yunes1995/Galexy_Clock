@@ -1,6 +1,9 @@
 body {
-    background: url();
-    background-size: 180px;
+    /* background: url(../Galexy_Clock/pic/galexy2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../Galexy_Clock/pic/HD\ WallPaper\ 044.jpg);
+    /* background-size: 180px; */
 }
 
 .main {
@@ -9,23 +12,42 @@ body {
     /* background-color: aqua; */
     margin: 63px auto;
     border-radius: 272px;
-    background-image: url(../MyPractice-NewClock/backGround.png);
-    background-size: cover;
-    background-position: center;
+    /* background-image: url(../Galexy_Clock/pic/backGround.png); */
+    /* background-size: cover;
+    background-position: center; */
+    background-color:#00968817;
+    font-family: sans-serif;
+    border: 1px solid silver;
+    box-shadow: 3px 0px 23px saddlebrown;
 }
-
+/* .second{
+    border: 3px solid white;
+    height: 503px;
+    border-radius: 272px;
+}
+*/
+.minutes p{
+    color: darkgoldenrod;
+} 
+.minutes{
+    position: absolute;
+    top: -48px;
+    right: 20px;
+}
 .activeMin {
     font-size: 17px;
-    border: 1px solid palevioletred !important;
-    padding: 15px 3px;
-    /* height: 18px; */
-    background: antiquewhite;
     font-weight: bold;
+    opacity: 1 !important;
+    padding: 0 3px;
 }
 
 .activeSec {
-    color: red;
-    border: 1px solid black;
+    color: rgb(168, 22, 22) !important;
+    /* border: 1px solid rgb(211, 199, 199); */
+    background-color: rgb(192, 192, 192);
+    opacity: 1 !important;
+    font-size: 19px;
+    padding: 0 2px;
 }
 
 /*-----------second-------*/
@@ -35,6 +57,8 @@ body {
     border-radius: 12px;
     padding: -2px;
     padding: 0 3px;
+    color: burlywood;
+    opacity: 0.5;
 }
 
 #s1 {
@@ -411,10 +435,12 @@ body {
     font-size: 22px;
 } */
 .minutes p {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 13px;
     padding: 2px;
     border-radius: 4px;
+    opacity: 0.2;
+    font-size: xxx-large
 }
 
 #m1 {
@@ -778,8 +804,10 @@ body {
 .hour p {
     position: absolute;
     top: 46px;
-    right: 630px;
+    right: 590px;
     font-size: 169px;
+    color: #a39f6e;
+    text-shadow: 3px 0px 12px crimson;
 }
 
 
@@ -792,4 +820,12 @@ body {
     position: absolute;
     top: 10px;
     font-size: large;
+}
+.author{
+    position: absolute;
+    color: aliceblue;
+    bottom: 2px;
+    font-size: 18px;
+    font-family: cursive;
+    text-shadow: 1px 0px 12px silver;
 }
