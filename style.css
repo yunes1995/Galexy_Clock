@@ -1,0 +1,795 @@
+body {
+    background: url();
+    background-size: 180px;
+}
+
+.main {
+    width: 591px;
+    height: 500px;
+    /* background-color: aqua; */
+    margin: 63px auto;
+    border-radius: 272px;
+    background-image: url(../MyPractice-NewClock/backGround.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.activeMin {
+    font-size: 17px;
+    border: 1px solid palevioletred !important;
+    padding: 15px 3px;
+    /* height: 18px; */
+    background: antiquewhite;
+    font-weight: bold;
+}
+
+.activeSec {
+    color: red;
+    border: 1px solid black;
+}
+
+/*-----------second-------*/
+.second p {
+    /* border: 1px solid black; */
+    width: 19px;
+    border-radius: 12px;
+    padding: -2px;
+    padding: 0 3px;
+}
+
+#s1 {
+    position: absolute;
+    top: 66px;
+    right: 626px;
+}
+
+#s2 {
+    position: absolute;
+    top: 70px;
+    right: 599px;
+}
+
+#s3 {
+    position: absolute;
+    top: 74px;
+    right: 570px;
+}
+
+#s4 {
+    position: absolute;
+    top: 82px;
+    right: 545px;
+}
+
+#s5 {
+    position: absolute;
+    top: 92px;
+    right: 520px;
+}
+
+#s6 {
+    position: absolute;
+    top: 105px;
+    right: 496px;
+}
+
+#s7 {
+    position: absolute;
+    top: 120px;
+    right: 474px;
+}
+
+#s8 {
+    position: absolute;
+    top: 135px;
+    right: 456px;
+}
+
+#s9 {
+    position: absolute;
+    top: 152px;
+    right: 438px;
+}
+
+#s10 {
+    position: absolute;
+    top: 170px;
+    right: 425px;
+}
+
+#s11 {
+    position: absolute;
+    top: 192px;
+    right: 410px;
+}
+
+#s12 {
+    position: absolute;
+    top: 210px;
+    right: 402px;
+}
+
+#s13 {
+    position: absolute;
+    top: 228px;
+    right: 396px;
+}
+
+#s14 {
+    position: absolute;
+    top: 247px;
+    right: 389px;
+}
+
+#s15 {
+    position: absolute;
+    top: 267px;
+    right: 384px;
+    padding: 7px 5px !important;
+    height: 20px;
+}
+
+#s16 {
+    position: absolute;
+    top: 303px;
+    right: 388px;
+}
+
+#s17 {
+    position: absolute;
+    top: 322px;
+    right: 389px;
+}
+
+#s18 {
+    position: absolute;
+    top: 343px;
+    right: 393px;
+}
+
+#s19 {
+    position: absolute;
+    top: 363px;
+    right: 402px;
+}
+
+#s20 {
+    position: absolute;
+    top: 383px;
+    right: 412px;
+}
+
+#s21 {
+    position: absolute;
+    top: 403px;
+    right: 423px;
+}
+
+#s22 {
+    position: absolute;
+    top: 423px;
+    right: 440px;
+}
+
+#s23 {
+    position: absolute;
+    top: 440px;
+    right: 458px;
+}
+
+#s24 {
+    position: absolute;
+    top: 458px;
+    right: 479px;
+}
+
+#s25 {
+    position: absolute;
+    top: 472px;
+    right: 501px;
+}
+
+#s26 {
+    position: absolute;
+    top: 485px;
+    right: 524px;
+}
+
+#s27 {
+    position: absolute;
+    top: 493px;
+    right: 549px;
+}
+
+#s28 {
+    position: absolute;
+    top: 502px;
+    right: 574px;
+}
+
+#s29 {
+    position: absolute;
+    top: 511px;
+    right: 598px;
+}
+
+#s30 {
+    position: absolute;
+    top: 505px;
+    right: 631px;
+    padding: 7px 4px !important;
+    height: 12px;
+}
+
+#s31 {
+    position: absolute;
+    top: 512px;
+    right: 665px;
+}
+
+#s32 {
+    position: absolute;
+    top: 510px;
+    right: 692px;
+}
+
+#s33 {
+    position: absolute;
+    top: 505px;
+    right: 721px;
+}
+
+#s34 {
+    position: absolute;
+    top: 498px;
+    right: 748px;
+}
+
+#s35 {
+    position: absolute;
+    top: 489px;
+    right: 774px;
+}
+
+#s36 {
+    position: absolute;
+    top: 478px;
+    right: 798px;
+}
+
+#s37 {
+    position: absolute;
+    top: 465px;
+    right: 821px;
+}
+
+#s38 {
+    position: absolute;
+    top: 449px;
+    right: 842px;
+}
+
+#s39 {
+    position: absolute;
+    top: 433px;
+    right: 861px;
+}
+
+#s40 {
+    position: absolute;
+    top: 415px;
+    right: 876px;
+}
+
+#s41 {
+    position: absolute;
+    top: 398px;
+    right: 892px;
+}
+
+#s42 {
+    position: absolute;
+    top: 378px;
+    right: 902px;
+}
+
+#s43 {
+    position: absolute;
+    top: 359px;
+    right: 912px;
+}
+
+#s44 {
+    position: absolute;
+    top: 338px;
+    right: 919px;
+
+}
+
+#s45 {
+    position: absolute;
+    top: 300px;
+    right: 921px;
+    padding: 7px 5px !important;
+    height: 20px;
+}
+
+#s46 {
+    position: absolute;
+    top: 277px;
+    right: 923px;
+}
+
+#s47 {
+    position: absolute;
+    top: 256px;
+    right: 923px;
+}
+
+#s48 {
+    position: absolute;
+    top: 235px;
+    right: 917px;
+}
+
+#s49 {
+    position: absolute;
+    top: 214px;
+    right: 910px;
+}
+
+#s50 {
+    position: absolute;
+    top: 192px;
+    right: 899px;
+}
+
+#s51 {
+    position: absolute;
+    top: 171px;
+    right: 885px;
+}
+
+#s52 {
+    position: absolute;
+    top: 151px;
+    right: 870px;
+}
+
+#s53 {
+    position: absolute;
+    top: 131px;
+    right: 850px;
+}
+
+#s54 {
+    position: absolute;
+    top: 115px;
+    right: 826px;
+}
+
+#s55 {
+    position: absolute;
+    top: 99px;
+    right: 801px;
+}
+
+#s56 {
+    position: absolute;
+    top: 84px;
+    right: 773px;
+}
+
+#s57 {
+    position: absolute;
+    top: 74px;
+    right: 743px;
+}
+
+#s58 {
+    position: absolute;
+    top: 67px;
+    right: 714px;
+}
+
+#s59 {
+    position: absolute;
+    top: 64px;
+    right: 687px;
+}
+
+/*-----------second-------*/
+
+/* --------------minutes-------------*/
+
+/* #m5 , #m10, #m15, #m20, #m25, #m30, #m35, #m40, #m45, #m50, #m55 {
+    border: 1px solid black !important;
+
+    height: 22px;
+    border-radius: 18px;
+    padding: 5px 8px;
+    font-size: 22px;
+} */
+.minutes p {
+    border: 1px solid black;
+    width: 13px;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+#m1 {
+    position: absolute;
+    top: 95px;
+    right: 634px;
+}
+
+#m2 {
+    position: absolute;
+    top: 100px;
+    right: 612px;
+}
+
+#m3 {
+    position: absolute;
+    top: 108px;
+    right: 591px;
+}
+
+#m4 {
+    position: absolute;
+    top: 116px;
+    right: 570px;
+}
+
+
+#m5 {
+    position: absolute;
+    top: 124px;
+    right: 548px;
+}
+
+#m6 {
+    position: absolute;
+    top: 137px;
+    right: 528px;
+}
+
+#m7 {
+    position: absolute;
+    top: 155px;
+    right: 508px;
+}
+
+#m8 {
+    position: absolute;
+    top: 173px;
+    right: 488px;
+}
+
+#m9 {
+    position: absolute;
+    top: 183px;
+    right: 468px;
+}
+
+#m10 {
+    position: absolute;
+    top: 198px;
+    right: 450px;
+}
+
+#m11 {
+    position: absolute;
+    top: 222px;
+    right: 434px;
+}
+
+#m12 {
+    position: absolute;
+    top: 236px;
+    right: 456px;
+}
+
+#m13 {
+    position: absolute;
+    top: 255px;
+    right: 436px;
+}
+
+#m14 {
+    position: absolute;
+    top: 268px;
+    right: 460px;
+}
+
+#m15 {
+    position: absolute;
+    top: 286px;
+    right: 437px;
+}
+
+#m16 {
+    position: absolute;
+    top: 297px;
+    right: 459px;
+    /* padding: 4px; */
+}
+
+#m17 {
+    position: absolute;
+    top: 315px;
+    right: 437px;
+}
+
+#m18 {
+    position: absolute;
+    top: 331px;
+    right: 458px;
+}
+
+#m19 {
+    position: absolute;
+    top: 346px;
+    right: 437px;
+}
+
+#m20 {
+    position: absolute;
+    top: 370px;
+    right: 457px;
+}
+
+#m21 {
+    position: absolute;
+    top: 392px;
+    right: 474px;
+}
+
+#m22 {
+    position: absolute;
+    top: 414px;
+    right: 491px;
+}
+
+#m23 {
+    position: absolute;
+    top: 435px;
+    right: 508px;
+}
+
+#m24 {
+    position: absolute;
+    top: 454px;
+    right: 528px;
+}
+
+#m25 {
+    position: absolute;
+    top: 464px;
+    right: 549px;
+}
+
+#m26 {
+    position: absolute;
+    top: 470px;
+    right: 570px;
+}
+
+#m27 {
+    position: absolute;
+    top: 476px;
+    right: 591px;
+}
+
+#m28 {
+    position: absolute;
+    top: 480px;
+    right: 610px;
+}
+
+#m29 {
+    position: absolute;
+    top: 481px;
+    right: 630px;
+}
+
+#m30 {
+    position: absolute;
+    top: 482px;
+    right: 650px;
+}
+
+#m31 {
+    position: absolute;
+    top: 482px;
+    right: 671px;
+}
+
+#m32 {
+    position: absolute;
+    top: 479px;
+    right: 692px;
+}
+
+#m33 {
+    position: absolute;
+    top: 474px;
+    right: 712px;
+}
+
+#m34 {
+    position: absolute;
+    top: 469px;
+    right: 732px;
+}
+
+#m35 {
+    position: absolute;
+    top: 458px;
+    right: 752px;
+}
+
+#m36 {
+    position: absolute;
+    top: 448px;
+    right: 772px;
+}
+
+#m37 {
+    position: absolute;
+    top: 435px;
+    right: 792px;
+}
+
+#m38 {
+    position: absolute;
+    top: 421px;
+    right: 813px;
+}
+
+#m39 {
+    position: absolute;
+    top: 403px;
+    right: 832px;
+}
+
+#m40 {
+    position: absolute;
+    top: 381px;
+    right: 850px;
+}
+
+#m41 {
+    position: absolute;
+    top: 358px;
+    right: 868px;
+}
+
+#m42 {
+    position: absolute;
+    top: 339px;
+    right: 887px;
+
+}
+
+#m43 {
+    position: absolute;
+    top: 316px;
+    right: 869px;
+}
+
+#m44 {
+    position: absolute;
+    top: 300px;
+    right: 889px;
+}
+
+#m45 {
+    position: absolute;
+    top: 281px;
+    right: 868px;
+}
+
+#m46 {
+    position: absolute;
+    top: 265px;
+    right: 888px;
+}
+
+#m47 {
+    position: absolute;
+    top: 247px;
+    right: 868px;
+}
+
+#m48 {
+    position: absolute;
+    top: 228px;
+    right: 888px;
+}
+
+#m49 {
+    position: absolute;
+    top: 207px;
+    right: 868px;
+}
+
+#m50 {
+    position: absolute;
+    top: 185px;
+    right: 849px;
+}
+
+#m51 {
+    position: absolute;
+    top: 162px;
+    right: 831px;
+}
+
+#m52 {
+    position: absolute;
+    top: 146px;
+    right: 811px;
+}
+
+#m53 {
+    position: absolute;
+    top: 131px;
+    right: 791px;
+}
+
+#m54 {
+    position: absolute;
+    top: 118px;
+    right: 771px;
+}
+
+#m55 {
+    position: absolute;
+    top: 104px;
+    right: 752px;
+}
+
+#m56 {
+    position: absolute;
+    top: 98px;
+    right: 732px;
+}
+
+#m57 {
+    position: absolute;
+    top: 93px;
+    right: 712px;
+}
+
+#m58 {
+    position: absolute;
+    top: 92px;
+    right: 691px
+}
+
+#m59 {
+    position: absolute;
+    top: 91px;
+    right: 671px;
+}
+
+/* hour*/
+.hour p {
+    position: absolute;
+    top: 46px;
+    right: 630px;
+    font-size: 169px;
+}
+
+
+
+/* example */
+.example {
+    width: 156px;
+    height: 81px;
+    border: 2px solid black;
+    position: absolute;
+    top: 10px;
+    font-size: large;
+}
